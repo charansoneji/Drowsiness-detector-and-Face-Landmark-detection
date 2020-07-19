@@ -11,3 +11,10 @@ In case you're wondering, cmake is a library you need to install dlib library wh
 
 For more detailed info, check the blog out in the link: 
 ### https://medium.com/100daysofmlcode/day-33-of-100daysofml-9483d54a0121
+
+# Drowsiness Detector
+Use the given notebook for drowsiness detector for the same. I have basically copied most of the elements from the facial landmark detection apart from a couple of functions and the main execution code. 
+I am working on a Drowsiness detector which would be able to identify whenever a user is feeling drowsy or when the distance between the tip of the eyelid and the base of the eyes decreases. I shall explain a bit more about the analogy and code in the coming lines. So the code is more or less same but we will be using an extra library called Distance from scipy. Now, the first step is to draw an outline around my eye and to identify the points which indicate the left as well as right eye.
+
+For more detailed info, check the blog out in the link: 
+### https://medium.com/100daysofmlcode/day-34-of-100daysofml-7829d324ede0
